@@ -1,0 +1,90 @@
+.heroSection_poster1 {
+    background-image: url("../image/HeroSection_poster1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 96% 99%;
+    background-position-x:right; 
+    height: 70vh;   
+}
+
+.heroSection_poster2 {
+    background-image: url("../image/HeroSection_poster2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 99%;
+    background-position-x:right; 
+    height: 70vh; 
+    
+}
+
+.heroSection_poster3 {
+    background-image: url("../image/HeroSection_poster3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 99%;
+    background-position-x:right;  
+    height: 35vh;
+}
+
+
+.popular_product {
+    background-image: url("../image/popularSection\ poster.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position-x:right;
+}
+
+.featured_product {
+    background-image: url("../image/featuredPoster.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position-x:right;
+}
+
+
+
+
+.home_search {
+    background-color: rgba(254, 187, 157, 1);
+    height: auto;
+    border-radius: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    
+}
+
+.home_search .search_input {
+    outline: none;
+    border: transparent;
+    padding: 5px;
+    border-radius: 10vh 0vh 0vh 10vh;
+}
+
+.home_search .categories_input {
+    outline: none;
+    border: transparent;
+    border-left: 1px solid gray;
+    padding: 5px;
+    border-radius: 0vh 10vh 10vh 0vh;
+    color: rgb(143, 140, 140);
+}
+
+.search_button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
